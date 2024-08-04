@@ -1,4 +1,4 @@
-FROM python:3.12-slim
+FROM python:3.13.0rc1-slim
 
 # Add labels to describe the Docker image
 LABEL org.opencontainers.image.description="The image includes all the necessary dependencies and configurations to run Ikabot seamlessly."
